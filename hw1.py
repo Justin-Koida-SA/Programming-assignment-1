@@ -50,7 +50,7 @@ def add_prices(first: data.Price, second: data.Price) -> data.Price:
     return data.Price(dollar, cents)
 
 
-def rectangle_area(rect):
+def rectangle_area(rect: data.Rectangle):
     length = 0
     height = 0
     area = 0
